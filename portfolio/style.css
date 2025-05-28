@@ -1,19 +1,13 @@
-/* Reset and layout */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
 
 /* Background Image on body */
 body {
-  min-height: 100vh;
   background-image: url('background.jpg');
-  background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: absolute;
   background-attachment: fixed;
-  position: relative;
+  color: #333;
+  
   font-family: 'Inter', sans-serif;
 }
 
